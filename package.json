@@ -1,0 +1,19 @@
+{
+  "name": "errorshandler-package",
+  "version": "1.0.0",
+  "description": "Middleware to handle errors",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LuanBagioCompagnoni/ErrorsHandler-Package.git"
+  },
+  "author": "Luan Bagio Compagnoni",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LuanBagioCompagnoni/ErrorsHandler-Package/issues"
+  },
+  "homepage": "https://github.com/LuanBagioCompagnoni/ErrorsHandler-Package#readme"
+}
