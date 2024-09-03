@@ -1,5 +1,6 @@
 {
   "name": "errorshandler-package",
+  "type": "module",
   "version": "1.0.0",
   "description": "Middleware to handle errors",
   "main": "index.js",
