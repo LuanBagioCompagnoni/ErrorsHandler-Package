@@ -1,4 +1,4 @@
-import InternalNotFoundError from './errors/InternalNotFoundError.js';
+import InternalNotFoundError from '../errors/InternalNotFoundError.js';
 
 function handler404(req, res, next){
     const error404 = new InternalNotFoundError('Page');

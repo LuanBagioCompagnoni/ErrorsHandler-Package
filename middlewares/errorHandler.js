@@ -1,11 +1,11 @@
 import mongoose from 'mongoose';
-import BaseError from './errors/BaseError.js';
-import ValidationError from './errors/ValidationError.js';
-import InvalidRequestError from './errors/InvalidRequestError.js';
-import InternalNotFoundError from './errors/InternalNotFoundError.js';
-import DuplicityError from './errors/DuplicityError.js';
-import NoChangeError from './errors/NoChangeError.js';
-import TokenError from "./errors/TokenError.js";
+import BaseError from '../errors/BaseError.js';
+import ValidationError from '../errors/ValidationError.js';
+import InvalidRequestError from '../errors/InvalidRequestError.js';
+import InternalNotFoundError from '../errors/InternalNotFoundError.js';
+import DuplicityError from '../errors/DuplicityError.js';
+import NoChangeError from '../errors/NoChangeError.js';
+import TokenError from "../errors/TokenError.js";
 
 function handleError(error, req, res, next) {
   if (error instanceof mongoose.Error.CastError) {
