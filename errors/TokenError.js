@@ -1,7 +1,7 @@
 import BaseError from './BaseError.js';
 
 class TokenError extends BaseError{
-    constructor(message){
+    constructor(message = 'Token inválido!'){
         super(`${message}`, 401);
     }
 }

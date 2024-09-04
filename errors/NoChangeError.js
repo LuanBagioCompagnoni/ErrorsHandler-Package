@@ -1,8 +1,8 @@
 import BaseError from './BaseError.js';
 
 class NoChangeError extends BaseError{
-  constructor(type = 'Document'){
-    super(`${type} not changed!`, 400);
+  constructor(message = 'Registro não foi alterado!'){
+    super(message, 400);
   }
 }
 
